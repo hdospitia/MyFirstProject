@@ -1,0 +1,15 @@
+1. git init
+2. git status
+3. git config --global user.name "myalias"
+4. git config --global user.email "myemail@mydomain.com"
+5. create a file
+6. git add "myfile" --> It allows to add files to the stage
+7. git commit -m "message related to the comit
+8. git branch
+9. git checkout -b MyNewBranch
+---------------------------------
+#Setting up a remote repository
+10. git remote add origin https://github.com/myusername/myrepositoryname.git
+# "Origin" refers to the remote repository address. with this command we set the alias "origin" for the remote repository.
+11. git push origin [branchname]
+---------------------------------
